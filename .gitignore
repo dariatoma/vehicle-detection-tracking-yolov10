@@ -15,8 +15,29 @@ venv/
 # === IDE ===
 .idea/
 
+# === Git repository in subfolder ===
+labelImg/
+
 # === Model files ===
 *.pt
+*.pth
+*.ckpt
+*.weights
 
-# === Datasets / runs ===
+# === Datasets ===
+car_dataset/
+cropped_dataset/
 runs/
+*.jpg
+*.jpeg
+*.png
+*.bmp
+*.tiff
+
+# === Videos ===
+*.mp4
+*.avi
+*.mov
+
+# === Misc ===
+.DS_Store
