@@ -1,0 +1,22 @@
+# === Python cache / build files ===
+__pycache__/
+*.py[cod]
+*.egg
+*.egg-info/
+*.log
+
+# === Virtual environments ===
+.venv/
+venv/
+.env/
+.env.bak/
+.venv1/
+
+# === IDE ===
+.idea/
+
+# === Model files ===
+*.pt
+
+# === Datasets / runs ===
+runs/
